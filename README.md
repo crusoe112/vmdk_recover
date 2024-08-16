@@ -1,12 +1,12 @@
 # Description
-This script was intended to recover a missing vmdk descriptor file using the existing .vmx file and the actual .vmdk files. It cannot recover the actual data, only the descriptor file.
-<br>
+This script was intended to recover a missing VmWare Workstation vmdk descriptor file using the existing .vmx file and the actual .vmdk files. It cannot recover the actual data, only the descriptor file.
+<br><br>
 Taken from Broadcom article here: https://knowledge.broadcom.com/external/article/306526/recreating-a-missing-virtual-disk-vmdk-d.html
-<br>
+<br><br>
 Currently, this will only work for 2GB Sparse formatted vmdk files. Feel free to contribute for other formats
-<br>
-This script is pretty specific to my own use case. You may need to modify the template and info to fit your needs.
-<br>
+<br><br>
+This script is pretty specific to my own use case. You may need to modify the template and info to fit your needs. You can use another VM's .vmdk file as a template to get the correct values.
+<br><br>
 Be very careful with this script, especially when overwriting files. It is recommended to make a backup of the .vmx file and the .vmdk files before running this script.
 
 # Usage
